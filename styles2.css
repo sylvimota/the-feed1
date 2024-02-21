@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(38, 38, 38);
+    width: auto;
+    margin: auto;
+    color: #ffffff;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/bowlby-sc/raleway/Raleway-Thin.woff2') format('woff2'),
+        url('fonts/bowlby-sc/raleway/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'BowlbyOneSC';
+    src: url('fonts/bowlby-sc/BowlbyOneSC-Regular.woff2') format('woff2'),
+        url('fonts/bowlby-sc/BowlbyOneSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    font-family: 'BowlbyOneSC';
+    font-size: 75;
+    padding-left: 40;
+}
